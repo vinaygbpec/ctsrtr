@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sfin="http://sap.com/xi/SAPSCORE/SFIN">
+  <SOAP-ENV:Header/>
+  <SOAP-ENV:Body>
+    <sfin:JournalEntryBulkCreateRequest>
+      <MessageHeader>
+        <ID>ad054115</ID>
+        <CreationDateTime>2021-04-08</CreationDateTime>
+      </MessageHeader>
+      <JournalEntryCreateRequest>
+        <MessageHeader>
+          <ID>ad054115</ID>
+          <CreationDateTime>2021-04-08</CreationDateTime>
+        </MessageHeader>
+        <JournalEntry>
+          <OriginalReferenceDocumentType>BKPFF</OriginalReferenceDocumentType>
+          <BusinessTransactionType>RUFB</BusinessTransactionType>
+          <AccountingDocumentType>SB</AccountingDocumentType>
+          <DocumentHeaderText>ADVANTAGE ad054115 280221</DocumentHeaderText>
+          <CreatedByUser>BATCH</CreatedByUser>
+          <CompanyCode>UKCM</CompanyCode>
+          <DocumentDate>2021-02-28</DocumentDate>
+          <PostingDate>2021-02-28</PostingDate>
+          <Item>
+            <GLAccount>12670000</GLAccount>
+            <AmountInTransactionCurrency currencyCode="EUR">206.86</AmountInTransactionCurrency>
+            <AmountInCompanyCodeCurrency currencyCode="GBP">184.72</AmountInCompanyCodeCurrency>
+            <DebitCreditCode>H</DebitCreditCode>
+            <DocumentItemText>BALANCING AD054115 ADV I/FACE</DocumentItemText>
+            <Tax>
+              <TaxCode>O8</TaxCode>
+            </Tax>
+            <AccountAssignment>
+              <ProfitCenter>UKCMPJN901</ProfitCenter>
+            </AccountAssignment>
+          </Item>
+          <Item>
+            <GLAccount>12670000</GLAccount>
+            <AmountInTransactionCurrency currencyCode="EUR">206.86</AmountInTransactionCurrency>
+            <AmountInCompanyCodeCurrency currencyCode="GBP">184.72</AmountInCompanyCodeCurrency>
+            <DebitCreditCode>H</DebitCreditCode>
+            <DocumentItemText>BALANCING AD054115 ADV I/FACE</DocumentItemText>
+            <Tax>
+              <TaxCode>O8</TaxCode>
+            </Tax>
+            <AccountAssignment>
+              <ProfitCenter>UKCMPJN901</ProfitCenter>
+            </AccountAssignment>
+          </Item>
+          <Item>
+            <GLAccount>12670000</GLAccount>
+            <AmountInTransactionCurrency currencyCode="EUR">206.86</AmountInTransactionCurrency>
+            <AmountInCompanyCodeCurrency currencyCode="GBP">184.72</AmountInCompanyCodeCurrency>
+            <DebitCreditCode>H</DebitCreditCode>
+            <DocumentItemText>BALANCING AD054115 ADV I/FACE</DocumentItemText>
+            <Tax>
+              <TaxCode>O8</TaxCode>
+            </Tax>
+            <AccountAssignment>
+              <ProfitCenter>UKCMPJN901</ProfitCenter>
+            </AccountAssignment>
+          </Item>
+        </JournalEntry>
+      </JournalEntryCreateRequest>
+    </sfin:JournalEntryBulkCreateRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
